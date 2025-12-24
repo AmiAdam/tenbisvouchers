@@ -1,49 +1,9 @@
-# Find unused 10bis barcodes (Shufersal/Victory)
-## ** PLEASE NOTE **  - 10Bis updates their barcodes usage state every week or two, so consider only records older than two weeks as valid)
-
-* You should also checkout this repo https://github.com/Dvirus89/tenbis-buy-coupons to automatically purchase Shufersal coupons using the best optimized combination to utilize all the remaining credit.
-
-## Usage - Windows:
-```
-git clone https://github.com/Dvirus89/tenbisbarcodes
-cd tenbisbarcodes
-python3 -m venv tenbisbarcodes
-tenbisbarcodes/bin/activate
-pip3 install -r requirements.txt
-python3 tenbis-report.py
-deactivate
-```
-## Usage - Linux/MacOS:
-```
-git clone https://github.com/Dvirus89/tenbisbarcodes
-cd tenbisbarcodes
-python3 -m venv tenbisbarcodes
-source tenbisbarcodes/bin/activate
-pip3 install -r requirements.txt
-python3 tenbis-report.py
-deactivate
-```
-
-
-## Release for Windows user:
-Download https://github.com/Dvirus89/tenbisbarcodes/releases/download/v1.0-beta/tenbis-report.exe
-
-(MD5 f71826471df37529420081033e942df5)
-
+# Find unused 10bis vouchers (shefa-bh)
+## ** PLEASE NOTE **  - 10Bis updates their vouchers usage state every week or two, so consider only records older than two weeks as valid)
 
 ## The output:
-HTML report - the easiest way to use the barcodes.
-
-1. Just save the HTML file to your mobile device
-2. Click "Hide All" - to hide all the barcodes
-3. Click in the gray area to expose a single barcode
-4. Scan the barcode with the BLACK barcode scanners. (images below)
-5. Click the used barcode to hide it
-6. Repeat (from step 3)
-
-![image](https://user-images.githubusercontent.com/1368112/212760973-912c3332-6915-4cb4-8ab1-c00006011891.png)
+HTML report - 
 
 
-## Identify the barcode scanners:
-![image](https://user-images.githubusercontent.com/1368112/212545083-bdefee29-b4b9-4e9a-b28f-20d7860948d8.png)
 
+<img width="1854" height="406" alt="Screenshot 2025-12-24 195800" src="https://github.com/user-attachments/assets/7a060c2d-d3d9-49ab-adb1-5491f8822744" />
